@@ -1,0 +1,149 @@
+body{
+  background-color: black;
+  color: seashell;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  border-top: 69px;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+}
+
+.teacozy{
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 50px;
+}
+nav{
+  display: flex;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a{
+  color: seashell;
+  text-decoration: underline;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*centers vertical*/
+  justify-content: center; /*centers horizontal*/
+  height: 700px;
+  width: 1200px;
+  background-image:url(../images/img-mission-background.jpg);
+  margin: auto; /*centers image*/
+
+}
+
+.mission h2,
+h4{
+  display: inline-block; /*blocks vertical*/
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  background-color: black; /*black bg for mission*/
+  width: 100%; /*extends black to max*/
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.tea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.tea h2,
+h4{
+  display: inline-block; /*blocks vertical*/
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  /*background-color: black; black bg for mission*/
+  /*width: 100%; extends black to max*/
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.tea .flavors{
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  font-size: 22px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*align-content: space-between;*/
+
+}
+
+.item img{
+  display: flex;
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+/*LOCATION*/
+.locations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:url(../images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  opacity: 1;
+}
+
+.area{
+  width: 100%;
+}
+
+.spot{
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 15px; 40px;
+  align-content: center;
+}
+
+/*CONTACT AND FOOTER INFO*/
+
+.contact {
+			max-height: 200px;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+		font-size: 15px;
+
+}
